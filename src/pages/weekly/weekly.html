@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Weekly</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="we">
+    <ion-list>
+
+        <ion-item>
+          <ion-input type="text" placeholder="Location" #location></ion-input>
+        </ion-item><br>
+        <button ion-button color="Primary" round block (click)="search(location.value)">Search</button>
+    
+    <ion-item class="dsp">
+     
+        <img src="{{icon1}}" style="width: 80px" height="80px"><br>
+       <h1>Temperature  {{temperature}}  </h1> <br>
+      wind Speed {{wind}} km/h <br>
+       Humidity {{humidity}} %<br>
+       Place:{{place}}<br>
+       
+
+     
+    
+    
+    
+    </ion-item><br>
+    <button ion-button color="Primary" round outline block (click)="forecast(location.value)">Forecast</button>
+      </ion-list>
+
+      <ion-card class="sa">
+    <ion-grid class="de">
+      <ion-row>
+        <ion-col>
+          {{date}}
+          <img src="{{icon1}}">
+          {{temperature}}
+        </ion-col>
+        <ion-col>
+        {{date1}}<br>
+        <img src="{{icon2}}">
+        {{temperature1}}
+        </ion-col>
+        <ion-col>
+          {{date2}}<br>
+          <img src="{{icon3}}">
+          {{temperature2}}
+          </ion-col>
+          <ion-col>
+            {{date3}}<br>
+            <img src="{{icon4}}">
+            {{temperature3}}
+            </ion-col>
+            <ion-col>
+              {{date4}}<br>
+              <img src="{{icon5}}">
+              {{temperature4}}
+              </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+  </ion-card>
+<p></p>
+
+</ion-content>

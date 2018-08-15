@@ -1,0 +1,23 @@
+page-weekly {
+    .we{
+        background-attachment: fixed;
+        background-image: url('../../assets/imgs/w1.jpg');
+        background-size: cover;
+    }
+
+    .de{
+        font-family: cursive;
+        font-size: 18pt;
+        color: rgb(240, 248, 255);
+    }
+    .sa{
+        background-color: rgba(1, 90, 255, 0.924);
+        box-shadow: 8px 10px 16px black; 
+        border-radius: 6px;
+    }
+    .dsp{
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 3px 3px 3px black; 
+        border-radius: 6px;
+    }
+}

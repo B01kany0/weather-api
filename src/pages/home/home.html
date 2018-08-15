@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="we">
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Location" #location></ion-input>
+    </ion-item><br>
+    <button ion-button round color="Primary" block (click)="search(location.value)">Search</button>
+
+<ion-card class="dsp">
+   <h1>Temperature  {{temperature}} °C </h1> <br>
+<h2>  wind Speed {{wind}} km/h</h2> <br>
+  <h2> Humidity {{humidity}} %</h2><br>
+   Place:{{place}}<br>
+
+
+</ion-card><br>
+
+  </ion-list>
+
+</ion-content>
