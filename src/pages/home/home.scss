@@ -1,16 +1,19 @@
 page-home {
+    align-content: center;
+    align-items: center;
+    text-align: center;
  .we{
      background-image: url('../../assets/imgs/w1.jpg');
      background-attachment: fixed;
      background-size: cover;
  }
  .dsp{
-    margin-top: 80px;
-    margin-left: 50px;
-   background-color: rgba(0, 255, 255, 0.048);
-    box-shadow: 3px 3px rgb(102, 102, 102); 
-    border-radius: 6px;
-     width: 190px;
-     height: 130px;
- }
+     margin-top: 80px;
+     margin:0 auto;
+     background-color: rgba(0, 255, 255, 0.048);
+     box-shadow: 3px 3px rgb(102, 102, 102); 
+     border-radius: 6px;
+     width: 90%;
+     height: 90%;
+    }
 }

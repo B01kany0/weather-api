@@ -1,4 +1,7 @@
 page-weekly {
+    align-content: center;
+    align-items: center;
+    text-align: center;
     .we{
         background-attachment: fixed;
         background-image: url('../../assets/imgs/w1.jpg');
@@ -7,7 +10,7 @@ page-weekly {
 
     .de{
         font-family: cursive;
-        font-size: 18pt;
+        font-size: 14pt;
         color: rgb(240, 248, 255);
     }
     .sa{
